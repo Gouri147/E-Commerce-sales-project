@@ -78,18 +78,29 @@ This limits the ability to make data-driven decisions for growth and operational
 - Revenue concentrated in top product categories  
 - Seller performance is highly skewed  
 
----
-
-##  Key Visualizations
-
-- Orders per Year → Business growth trend  
-- Monthly Sales Trend → Seasonal demand patterns  
-- Top Product Categories → Revenue drivers  
-- Payment Installments Distribution → Customer behavior  
-- Customer Order Frequency → Retention insights  
-- Top Sellers by Revenue → Seller performance  
 
 ---
+##  Key Analysis Performed
+  Basic Analysis
+- Unique customer cities
+- Total orders in 2017
+- Total sales per category
+- Percentage of installment payments
+- Customer distribution by state
+
+  Intermediate Analysis
+- Monthly order trends (2018)
+- Average products per order by city
+- Revenue contribution by category
+- Correlation between price & purchase frequency
+- Seller-wise revenue ranking
+ 
+  Advanced Analysis
+- Moving average of customer order values
+- Cumulative monthly sales
+- Year-over-Year (YoY) growth
+- Customer retention rate
+- Top 3 customers by spending (per year)
 
 ##  Key Insights
 
