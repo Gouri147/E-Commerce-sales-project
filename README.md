@@ -81,21 +81,21 @@ This limits the ability to make data-driven decisions for growth and operational
 
 ---
 ##  Key Analysis Performed
-# Basic Analysis
+## Basic Analysis
 - Unique customer cities
 - Total orders in 2017
 - Total sales per category
 - Percentage of installment payments
 - Customer distribution by state
 
-# Intermediate Analysis
+## Intermediate Analysis
 - Monthly order trends (2018)
 - Average products per order by city
 - Revenue contribution by category
 - Correlation between price & purchase frequency
 - Seller-wise revenue ranking
  
- # Advanced Analysis
+ ## Advanced Analysis
 - Moving average of customer order values
 - Cumulative monthly sales
 - Year-over-Year (YoY) growth
