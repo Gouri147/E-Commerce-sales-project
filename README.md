@@ -1,117 +1,156 @@
-#  Navigating the Future of Online Shopping
-
-## E-Commerce Data Analysis (SQL & Python)
-
----
-
-##  Project Overview
-
-This project focuses on analyzing an e-commerce dataset to extract insights related to **sales trends, customer behavior, product performance, and business growth** using **SQL and Python (Pandas)**.
+#  E-commerce Data Analysis Project  
+### Navigating the Future of Online Shopping
 
 ---
 
-##  Objective
+##  Project Summary
 
-* Analyze order and sales trends
-* Understand customer purchasing patterns
-* Identify top-performing categories and sellers
-* Evaluate revenue growth over time
-* Perform advanced analytical queries
+This project analyzes a large-scale e-commerce dataset (~99K+ transactions) to uncover actionable insights into sales trends, customer behavior, payment patterns, and seller performance.
+
+Using SQL for data extraction and Python for analysis & visualization, the project transforms raw data into business-driven insights and strategic recommendations.
 
 ---
 
-##  Dataset Information
+##  Business Problem
 
-The dataset includes the following files:
+Despite handling a high volume of transactions, the business lacks clear visibility into:
 
-* `customers.csv`
-* `orders.csv`
-* `order_items.csv`
-* `payments.csv`
-* `products.csv`
-* `sellers.csv`
-* `geolocation.csv`
+- Key revenue drivers  
+- Customer retention patterns  
+- Payment behavior impact  
+- Seller contribution distribution  
 
- Note:
-
-* Dataset files are uploaded in **ZIP format** due to size constraints
-* Files can be extracted and used directly in Python/SQL
+This limits the ability to make data-driven decisions for growth and operational efficiency.
 
 ---
 
-##  Data Preparation
+##  Objectives
 
-* Converted date columns into datetime format
-* Handled missing values in categorical columns
-* Ensured correct joins between tables
-* Used appropriate tables to avoid duplication issues during analysis
-
----
-
-##  Analysis Performed
-
-###  Basic Analysis
-
-* Unique cities of customers
-* Number of orders placed in 2017
-* Total sales per category
-* Percentage of installment-based orders
-* Customer distribution by state
+- Analyze order and revenue trends over time  
+- Identify top-performing product categories  
+- Understand customer purchasing behavior  
+- Evaluate installment-based payment behavior  
+- Analyze seller contribution and revenue concentration  
+- Provide data-driven business recommendations  
 
 ---
 
-###  Intermediate Analysis
+##  Dataset Overview
 
-* Monthly order trends (2018)
-* Average products per order by city
-* Revenue contribution by category
-* Correlation between product price and purchase frequency
-* Seller-wise revenue ranking
+| Table | Description |
+|------|------------|
+| Customers | Customer demographic details |
+| Orders | Order history and timestamps |
+| Order Items | Product-level transaction data |
+| Products | Product categories and attributes |
+| Payments | Payment methods and installments |
+| Sellers | Seller information |
+| Geolocation | Location-based data |
 
 ---
 
-###  Advanced Analysis
+##  Tech Stack
 
-* Moving average of order values per customer
-* Cumulative monthly sales
-* Year-over-Year (YoY) growth
-* Top 3 customers by yearly spending
+- SQL (MySQL) → Data querying & transformation  
+- Python (Pandas, Matplotlib) → Data analysis & visualization  
+- Google Colab → Development environment  
+- PowerPoint → Presentation of insights  
+
+---
+
+##  Project Workflow
+
+1. Data Cleaning & Preprocessing  
+2. SQL Analysis (Basic → Intermediate → Advanced)  
+3. Data Integration (Joins & Aggregations)  
+4. Exploratory Data Analysis (EDA)  
+5. Visualization & Insight Generation  
+6. Business Recommendations  
+
+---
+
+##  Key Metrics
+
+- Total Orders: ~99,000+  
+- Orders in 2017: 45,101  
+- Installment Usage: 49.42%  
+- Majority of customers are one-time buyers  
+- Revenue concentrated in top product categories  
+- Seller performance is highly skewed  
+
+---
+
+##  Key Visualizations
+
+- Orders per Year → Business growth trend  
+- Monthly Sales Trend → Seasonal demand patterns  
+- Top Product Categories → Revenue drivers  
+- Payment Installments Distribution → Customer behavior  
+- Customer Order Frequency → Retention insights  
+- Top Sellers by Revenue → Seller performance  
 
 ---
 
 ##  Key Insights
 
-* Significant growth observed from 2017 to 2018
-* A few categories contribute a major share of total revenue
-* Most orders consist of a single product
-* Installment payments are commonly used
-* Revenue is concentrated among top sellers
-
----
-
-##  Tools Used
-
-* Python (Pandas)
-* SQL (MySQL)
-* Google Colab
+- Nearly 49.42% of transactions are made using installment payments  
+- Customer retention is low, with most users making only one purchase  
+- A small number of categories contribute the majority of revenue  
+- Seller revenue is concentrated among top performers  
+- Sales show seasonal fluctuations across months  
 
 ---
 
 ##  Conclusion
 
-The analysis highlights important business trends and demonstrates how structured data analysis can support decision-making in an e-commerce environment.
+The platform demonstrates strong transactional volume (~99K+ orders), but key challenges remain:
+
+- Low customer retention  
+- Revenue concentration in limited categories  
+- Dependency on top sellers  
+
+These insights highlight opportunities to improve customer engagement, diversify revenue streams, and ensure sustainable business growth.
 
 ---
 
-##  Files Included
+##  Business Recommendations
 
-* Dataset (ZIP format)
-* SQL Queries
-* Python Code (Google Colab)
+- Improve customer retention through loyalty programs and targeted marketing  
+- Promote installment payment options to increase conversions  
+- Expand seller base to reduce dependency on top sellers  
+- Focus on high-performing categories to maximize revenue  
+- Align marketing strategies with seasonal demand trends  
 
 ---
 
-##  Author
+##  Future Scope
 
-**Gouri Sharma**
-Aspiring Data Analyst
+- Customer segmentation (RFM analysis)  
+- Cohort analysis for retention tracking  
+- Predictive modeling for sales forecasting  
+- Recommendation systems for personalization  
+
+---
+
+##  Deliverables
+
+- SQL Query File  
+- Google Colab Notebook  
+- PowerPoint Presentation  
+
+---
+
+##  Acknowledgment
+
+This project was completed as part of a structured data analytics learning program under mentor guidance.
+
+---
+
+##  Connect
+
+- LinkedIn :  www.linkedin.com/in/gouri-sharma-702117293
+- Email: 34shgouri@gmail.com 
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
